@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="raphael.js"></script>
+        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.1.1.min.js"></script>
+	</head>
+	<body>
+        <!--<embed src="image.svg" type="image/svg+xml"></embed>-->
+        <!--<svg width="500px" height="500px" version="1.1"-->
+             <!--xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">-->
+            <!--<image xlink:href="iFrontEnder.jpg" x="0" y="0" height="200px" width="200px"></image>-->
+        <!--</svg>-->
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var paper = Raphael(50, 50, 320, 200);
+                paper.image('iFrontEnder.jpg', 10, 10, 80, 80);
+            });
+        </script>
+	</body>
+</html>
